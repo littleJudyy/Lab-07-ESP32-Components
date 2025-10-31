@@ -1,0 +1,20 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 6.0.0
+  lab7_components:
+    component_hash: 
+      28980133685aeb6505cea5adf1da333b788d12afb9d8b5c2ea815733f84ece30
+    dependencies: []
+    source:
+      git: 
+        https://github.com/APPLICATIONS-OF-MICROCONTROLLERS/Lab7_Components.git
+      path: .
+      type: git
+    version: 8b0eaa680ddbbd8f70a837386bf47b0a94c4808a
+direct_dependencies:
+- lab7_components
+manifest_hash: 50af25ea1ce040fc0c8bdc86250112ed8d8f47fdb1bd4ebc9a535e2e6e5fcddc
+target: esp32
+version: 2.0.0
